@@ -58,9 +58,9 @@
                                 <Label fx:id="birthdayLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
                             </children>
                         </GridPane>
-                        <Button layoutX="234.0" layoutY="259.0" mnemonicParsing="false" text="New..." AnchorPane.rightAnchor="130.0" />
-                        <Button layoutX="295.0" layoutY="259.0" mnemonicParsing="false" text="Edit..." AnchorPane.rightAnchor="70.0" />
-                        <Button layoutX="360.0" layoutY="259.0" mnemonicParsing="false" text="Delete" AnchorPane.rightAnchor="10.0" />
+                        <Button layoutX="234.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleNewPerson" text="New..." AnchorPane.rightAnchor="130.0" />
+                        <Button layoutX="295.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." AnchorPane.rightAnchor="70.0" />
+                        <Button layoutX="360.0" layoutY="259.0" mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" AnchorPane.rightAnchor="10.0" />
                     </children>
                 </AnchorPane>
             </items>
